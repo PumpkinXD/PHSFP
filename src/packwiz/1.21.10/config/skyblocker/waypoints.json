@@ -1,0 +1,143 @@
+[
+  {
+    "name": "F7/M7 PD",
+    "island": "dungeon",
+    "waypoints": [
+      {
+        "colorComponents": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "alpha": 0.5,
+        "shouldRender": true,
+        "pos": [
+          19,
+          164,
+          77
+        ],
+        "name": "NEW PD"
+      },
+      {
+        "colorComponents": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "alpha": 0.5,
+        "shouldRender": true,
+        "pos": [
+          19,
+          168,
+          72
+        ],
+        "name": "NEW PD2"
+      },
+      {
+        "colorComponents": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "alpha": 0.5,
+        "shouldRender": true,
+        "pos": [
+          91,
+          165,
+          40
+        ],
+        "name": "STD PD"
+      },
+      {
+        "colorComponents": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "alpha": 0.5,
+        "shouldRender": true,
+        "pos": [
+          60,
+          131,
+          142
+        ],
+        "name": "DEV 2"
+      },
+      {
+        "colorComponents": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "alpha": 0.5,
+        "shouldRender": true,
+        "pos": [
+          2,
+          119,
+          77
+        ],
+        "name": "DEV3"
+      },
+      {
+        "colorComponents": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "alpha": 0.5,
+        "shouldRender": true,
+        "pos": [
+          63,
+          126,
+          35
+        ],
+        "name": "DEV4"
+      },
+      {
+        "colorComponents": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "alpha": 0.5,
+        "shouldRender": true,
+        "pos": [
+          54,
+          64,
+          76
+        ],
+        "name": "NECRON(P4)"
+      },
+      {
+        "colorComponents": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "alpha": 0.5,
+        "shouldRender": true,
+        "pos": [
+          54,
+          5,
+          76
+        ],
+        "name": "P5"
+      },
+      {
+        "colorComponents": [
+          0.0,
+          1.0,
+          0.0
+        ],
+        "alpha": 0.5,
+        "shouldRender": true,
+        "pos": [
+          56,
+          8,
+          133
+        ],
+        "name": "purple"
+      }
+    ]
+  }
+]

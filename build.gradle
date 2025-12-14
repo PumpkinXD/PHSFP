@@ -1,0 +1,22 @@
+
+
+
+plugins {
+    base
+}
+
+/*
+* taskName : folderName(MCVer)
+*/
+Map<String,String> buildPackTasks = [
+    "build1.21.10":"1.21.10"
+];
+
+
+// tasks.register("dumb"){
+// }
+
+
+tasks.build{
+    // dependsOn("dumb");
+}

@@ -1,0 +1,13 @@
+name = "Shut Up GL Error"
+filename = "shut_up_gl_error-fabric-2.0.0+1.21.10.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/houIxdGF/versions/2b1ObgLI/shut_up_gl_error-fabric-2.0.0%2B1.21.10.jar"
+hash-format = "sha512"
+hash = "2caccb95b825ea15fa070fe32deb7b5d11bad8d5454e4a99acc50e702000b663ba4439e0792f0880c3c5cdcba49d32ef89c013178b7b506be737ecf8ac1d51e0"
+
+[update]
+[update.modrinth]
+mod-id = "houIxdGF"
+version = "2b1ObgLI"

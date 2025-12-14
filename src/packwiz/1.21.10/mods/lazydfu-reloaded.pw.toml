@@ -1,0 +1,13 @@
+name = "LazyDFU Reloaded"
+filename = "LazyDFU-[UNOFFICIAL]-1.21.10.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/OmQzuQFa/versions/2K0QC2ea/LazyDFU-%5BUNOFFICIAL%5D-1.21.10.jar"
+hash-format = "sha512"
+hash = "260369d69c5397e7dd51c7d9c0c428849215c370218cf2da0b2b19c7695d7d47bda677c900a4f94525a11c51a64884a4d558faff590b597017baef904797b9d0"
+
+[update]
+[update.modrinth]
+mod-id = "OmQzuQFa"
+version = "2K0QC2ea"

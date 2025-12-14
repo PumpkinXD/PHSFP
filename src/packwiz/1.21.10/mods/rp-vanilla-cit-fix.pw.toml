@@ -1,0 +1,13 @@
+name = "Rp Vanilla CIT Fix"
+filename = "RpVanillaCITFix-4.2.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/KexLXhaf/versions/idizPSfP/RpVanillaCITFix-4.2.jar"
+hash-format = "sha512"
+hash = "af516a4aab241a92bdc7abd74d0ca9039f54951002a1f17e16d6817f76896756065773e8a3b4a940cc7423e71eb33791ab1f50ea7705aba3cd70557a9f189641"
+
+[update]
+[update.modrinth]
+mod-id = "KexLXhaf"
+version = "idizPSfP"

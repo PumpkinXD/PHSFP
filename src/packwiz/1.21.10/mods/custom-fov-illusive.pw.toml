@@ -1,0 +1,13 @@
+name = "Custom FOV"
+filename = "customfov-fabric-11.0.0+1.21.10.jar"
+side = "client"
+
+[download]
+url = "https://cdn.modrinth.com/data/uZAcFHLd/versions/Os9bevAV/customfov-fabric-11.0.0%2B1.21.10.jar"
+hash-format = "sha512"
+hash = "454bae1a50ec5be26da0bf1004a59ed255a8922e3f6a65bc4cb4680f591b5ea25d378d9baed57ef1dcdadf0124c156c00c36fab2c0f41227c19b42900b0d0a3c"
+
+[update]
+[update.modrinth]
+mod-id = "uZAcFHLd"
+version = "Os9bevAV"

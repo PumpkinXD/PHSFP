@@ -1,0 +1,92 @@
+# modified from https://github.com/Skytils/SkytilsMod/blob/0c8145f8ebb89f50e619ac4bb7748a8257abe1f1/.gitignore#
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
+
+# MacOS
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon must end with two \r
+Icon
+
+# MacOS Thumbnails
+._*
+
+# (MacOS) Files that might appear in the root of a volume 
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows thumbnail cache files
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+
+# Windows Installer files
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# Windows Folder config file
+[Dd]esktop.ini
+
+# eclipse
+*.launch
+
+# idea
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+.idea_modules/
+
+# vscode
+.settings/
+.vscode/
+bin/
+.classpath
+.project
+
+# trae
+.marscode/
+
+# build
+build/
+out/
+
+
+
+*.jar
+*.exe
+
+src/packwiz/packwiz
+src/packwiz/**/*.mrpack
+src/packwiz/**/*.zip
+
+
+
+# Ignore Gradle project-specific cache directory
+.gradle
