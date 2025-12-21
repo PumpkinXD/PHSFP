@@ -1,22 +1,62 @@
-
-
-
 plugins {
-    base
+    id 'base'
+    id "com.modrinth.minotaur" version "2.+"
+}
+/**
+ *  task suffix : folder name
+ */
+Map<String, String> buildPackTasks = [
+        "1.21.10Pack": "1.21.10"
+]
+
+tasks.register("buildAllPacks") {
+    group = "Build"
+    description = "Build modpacks in all supported Minecraft versions."
+    dependsOn tasks.matching { it.group == "packwiz build" }
+}
+tasks.register("updateAllPacks") {
+    group = "Mod update"
+    description = "Update mods in modpacks in all supported Minecraft versions."
+    dependsOn tasks.matching { it.group == "packwiz update" }
 }
 
-/*
-* taskName : folderName(MCVer)
-*/
-Map<String,String> buildPackTasks = [
-    "build1.21.10":"1.21.10"
-];
+buildPackTasks.each { taskNameSuffix, folderName ->
+    String buildTaskName = "build${taskNameSuffix}"
 
+    tasks.register(buildTaskName, Exec) {
+        group = "packwiz build"
 
-// tasks.register("dumb"){
-// }
+        workingDir "src/packwiz/${folderName}"
+        commandLine "packwiz", "modrinth", "export"
 
+        doLast {
+            File sourceDirFile = new File("src/packwiz/${folderName}")
+            File destinationDirFile = new File("build")
+            destinationDirFile.mkdirs()
+            sourceDirFile.eachFileMatch(~/.*\.mrpack/) { File mrpackFile ->
+                File targetFile = new File(destinationDirFile, mrpackFile.name)
+                java.nio.file.Files.move(
+                        mrpackFile.toPath(),
+                        targetFile.toPath(),
+                        java.nio.file.StandardCopyOption.REPLACE_EXISTING
+                )
+            }
+        }
+    }
 
-tasks.build{
-    // dependsOn("dumb");
+    tasks.register("update${taskNameSuffix}", Exec) {
+        group = "packwiz update"
+        workingDir "src/packwiz/${folderName}"
+        commandLine "packwiz", "update", "--all", "--yes"
+    }
+
+    tasks.register("refresh${taskNameSuffix}", Exec) {
+        group = "packwiz refresh"
+        workingDir "src/packwiz/${folderName}"
+        commandLine "packwiz", "refresh"
+    }
+}
+
+tasks.named("build") {
+    dependsOn("buildAllPacks")
 }
