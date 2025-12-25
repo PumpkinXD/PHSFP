@@ -154,7 +154,7 @@ hash = "d90c007d09492519ef4bee3310cfe96acec320710f47cf17eb3b0fccced94330"
 
 [[files]]
 file = "config/skyblocker/chat_rules.json"
-hash = "041dbea72128d5243da2fd9929b2f54b7ccbd5b6a0e719bd7415aa5935238246"
+hash = "6ded397c24040de13739b61fc8a8fa013f99609549c369222de6b24a716b7d0f"
 
 [[files]]
 file = "config/skyblocker/hud_widgets.json"
@@ -266,7 +266,7 @@ metafile = true
 
 [[files]]
 file = "mods/chatpatches.pw.toml"
-hash = "85b6b778d7b56c6096a3e9809c44639d94c0013239bf2fe20899b7305397fe5d"
+hash = "745f22e8b829badfee2d670311d79477fa0de51e287781eea46159276841a168"
 metafile = true
 
 [[files]]
@@ -281,7 +281,7 @@ metafile = true
 
 [[files]]
 file = "mods/crash-assistant.pw.toml"
-hash = "1b3666ed4b9327eb423aaf804ec881c657aefd2d6240b258eef886b641f5694a"
+hash = "9e4b7af4e25273baee0d9f2bc9f337d3b71ee52bbdd3d470cdcbb6d7876b1a1e"
 metafile = true
 
 [[files]]
@@ -386,12 +386,12 @@ metafile = true
 
 [[files]]
 file = "mods/immediatelyfast.pw.toml"
-hash = "deb841bd032e5b2722df01d2743b1fc67be20540b9608ee29501909f37ba3015"
+hash = "77364cc74f5c0819ef77e5e2fd11bd304ad98dc193348d3d875e23fae62f8f74"
 metafile = true
 
 [[files]]
 file = "mods/iris.pw.toml"
-hash = "4ed061d122cb39f34ed730984c7bcf03437250f24a21975203bb4598d7d86a14"
+hash = "fecd2e19a6afd8109bb6cfc281d158e3f7a5d6646a99340e2ece5d1aaece4edc"
 metafile = true
 
 [[files]]
@@ -451,12 +451,12 @@ metafile = true
 
 [[files]]
 file = "mods/modernfix-mvus.pw.toml"
-hash = "d50b7be11b0ef674f0f5b7b4307dc4919683fa63bdc72703912258a528398e61"
+hash = "84ca48611902643c3934139e0dce480294b2f2e891cf797fede0607d5b9f6dfa"
 metafile = true
 
 [[files]]
 file = "mods/modmenu.pw.toml"
-hash = "5dd45d5fd5e1ae2bd521b93a70b83c69b57ada18f424c6562d8c6ea9980cfb3e"
+hash = "802981efce132e93b99352dacae410bf7b3e356f2e9de14b0ff9cea0beb31bb9"
 metafile = true
 
 [[files]]
@@ -531,7 +531,7 @@ metafile = true
 
 [[files]]
 file = "mods/scoreboard-overhaul.pw.toml"
-hash = "3c9687e13528e2998a204095ead46fed621d305b84a851bae06371b3b12c9801"
+hash = "96eea2f19d22d947fd3fa0dd404c2b67752ba67f2e674bf5546dd1f6bbdcde95"
 metafile = true
 
 [[files]]
@@ -551,17 +551,17 @@ metafile = true
 
 [[files]]
 file = "mods/skyblocker-liap.pw.toml"
-hash = "d0b15d313eff11d49a864524f3735b8bdabe7eee322895c571c8defdcc3d6ad4"
+hash = "13c7c247c1a96069c0f7207269b3a86ef16c6b56f8b08cb3363cd68eb2a9c4b8"
 metafile = true
 
 [[files]]
 file = "mods/skyhanni.pw.toml"
-hash = "42d0a65d344ecdfb66e3a5e1c910bb51b501ba010b8108a9dc078d9c6c899a55"
+hash = "23fab5b741ae23c65e931927e8cea9fb71e9d943c6c3eeb74381722a0e03f0b8"
 metafile = true
 
 [[files]]
 file = "mods/skyocean.pw.toml"
-hash = "11647d1cc931c32015ad9fd388981d595de861a2360f086d8cb6676c31f65444"
+hash = "45e856492e7a8342fdc7456ac598889056dad0196a3e06640cacc8b22ca4d65b"
 metafile = true
 
 [[files]]

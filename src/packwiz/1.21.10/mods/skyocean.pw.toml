@@ -1,13 +1,13 @@
 name = "SkyOcean"
-filename = "SkyOcean-1.11.1-1.21.10.jar"
+filename = "SkyOcean-1.12.0-1.21.10.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/dIczrQAR/versions/saT3dFYh/SkyOcean-1.11.1-1.21.10.jar"
+url = "https://cdn.modrinth.com/data/dIczrQAR/versions/ow3sbEq5/SkyOcean-1.12.0-1.21.10.jar"
 hash-format = "sha512"
-hash = "b9f428f62e166f4219f166a138eb130394c799907867ab6253de11a4a7248d28fd48f1652d3e25ca32f452f3089cf10ed42a45dff453a66535fea56a0b9e401d"
+hash = "89dff1ec5f0bd8daf6a411cfa2cca09f59c36bf142a2b1c5114e2bc6b70fcf61bd0b05e07f0ec828b5568ca4cfec64b2e3bf82d5e2a43c73eb631247b78bfe36"
 
 [update]
 [update.modrinth]
 mod-id = "dIczrQAR"
-version = "saT3dFYh"
+version = "ow3sbEq5"
