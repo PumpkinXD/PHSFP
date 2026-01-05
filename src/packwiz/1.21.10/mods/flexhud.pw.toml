@@ -1,13 +1,13 @@
 name = "Flex HUD"
-filename = "flex-hud-0.3.3-1.21.9.jar"
+filename = "flex-hud-0.4-1.21.9.jar"
 side = "client"
 
 [download]
-url = "https://cdn.modrinth.com/data/sJd4aIJv/versions/elJNm9XO/flex-hud-0.3.3-1.21.9.jar"
+url = "https://cdn.modrinth.com/data/sJd4aIJv/versions/mR3LnxHw/flex-hud-0.4-1.21.9.jar"
 hash-format = "sha512"
-hash = "7f95fde62ff45176b49d8122dd90711d79e43c6bec7353e0cb7a3d313870fcd0dd123b75cc271134d7bcc28359db412aed0a4e4db4e285294668ab958c67d633"
+hash = "a7e2fa2c6f8871ddadbaf3b14fe8fe6629d214dbad366870646d8d30c823de94a547287e5825436ed9839e55e2b3fa5760f6ab627b7c3b09e949f02f6aa6b50a"
 
 [update]
 [update.modrinth]
 mod-id = "sJd4aIJv"
-version = "elJNm9XO"
+version = "mR3LnxHw"
