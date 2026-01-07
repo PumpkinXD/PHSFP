@@ -55,6 +55,7 @@
     },
     "specialEffects": {
       "rareDungeonDropEffects": true,
+      "rareDropEffects": true,
       "rareDyeDropEffects": true
     },
     "hitbox": {
@@ -102,6 +103,11 @@
       "textEnabled": {},
       "slotTextToggled": true
     },
+    "radialMenu": {
+      "enabled": false,
+      "tooltipsWithoutShift": false,
+      "enabledMenus": {}
+    },
     "inventorySearch": {
       "enabled": "SKYBLOCK",
       "ctrlK": false,
@@ -118,10 +124,10 @@
       "tabHudEnabled": true,
       "tabHudScale": 100,
       "showVanillaTabByDefault": false,
-      "style": "FANCY",
+      "style": "MINIMAL",
       "displayIcons": true,
       "compactWidgets": false,
-      "enableHudBackground": true,
+      "enableHudBackground": false,
       "effectsFromFooter": false,
       "defaultPositioning": "CENTERED",
       "nameSorting": "DEFAULT"
@@ -132,6 +138,7 @@
     },
     "bars": {
       "enableBars": true,
+      "enableVanillaStyleManaBar": false,
       "intelligenceDisplay": "ORIGINAL",
       "barPositions": {
         "healthBarPosition": "LAYER1",
@@ -177,16 +184,8 @@
       "maxSuggestions": 3,
       "historyLength": 3,
       "enableCommands": false,
-      "bazaarHistory": [
-        "Magma Core",
-        "Precursor Gear",
-        "Sugar Rush I"
-      ],
-      "auctionHistory": [
-        "Golden Gift",
-        "Treasure Talisman",
-        "tresure"
-      ],
+      "bazaarHistory": [],
+      "auctionHistory": [],
       "museumHistory": []
     },
     "bazaarQuickQuantities": {
@@ -345,6 +344,8 @@
       "fancyMap": true,
       "showSelfHead": true,
       "showRoomLabels": true,
+      "showOutline": true,
+      "backgroundBlur": false,
       "mapScaling": 0.55,
       "mapX": 410,
       "mapY": 21
@@ -511,6 +512,10 @@
     "callMismyla": true,
     "redialOnBadSignal": true,
     "enablePickobulusHelper": true,
+    "pickobulusHelper": {
+      "enablePickobulusHud": true,
+      "hideHudOnCooldown": false
+    },
     "dwarvenMines": {
       "solveFetchur": true,
       "solvePuzzler": true,
@@ -667,7 +672,7 @@
   },
   "chat": {
     "skyblockXpMessages": true,
-    "confirmationPromptHelper": false,
+    "confirmationPromptHelper": true,
     "hideAbility": "PASS",
     "hideHeal": "PASS",
     "hideAOTE": "PASS",

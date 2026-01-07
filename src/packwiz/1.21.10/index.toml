@@ -150,7 +150,7 @@ hash = "1c97808cbb579e4e4e1ca9449f71bf5560c2b571cfb6a10e1e48669133bec44d"
 
 [[files]]
 file = "config/skyblocker.json"
-hash = "d90c007d09492519ef4bee3310cfe96acec320710f47cf17eb3b0fccced94330"
+hash = "b5178b1e9d64337a34f198f904107d4df560ed7a9595cd3851f37b4b7d60000c"
 
 [[files]]
 file = "config/skyblocker/chat_rules.json"
